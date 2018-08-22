@@ -1,4 +1,5 @@
-<div *ngIf="selectedHero != null">
+<!-- <div *ngIf="selectedHero"> -->
+    <div >
     <h2>{{selectedHero.name | uppercase}} Details</h2>
     <div><span>id: </span>{{selectedHero.id}}</div>
     <div>
@@ -6,4 +7,9 @@
         <input [(ngModel)]="selectedHero.name" placeholder="Input name here">
       </label>
     </div>
+    <div>
+        <label>Binding Index:
+          <input [(ngModel)]="selectedIndex" placeholder="Index">
+        </label>
+      </div>
   </div>

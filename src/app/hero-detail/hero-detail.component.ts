@@ -8,6 +8,7 @@ import { Hero } from '../hero';
 })
 export class HeroDetailComponent implements OnInit {
   @Input() selectedHero: Hero;
+  @Input() selectedIndex: number;
 
   constructor() { }
 
