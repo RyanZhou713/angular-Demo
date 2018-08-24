@@ -12,4 +12,6 @@ export class FormSKUComponent implements OnInit {
   ngOnInit() {
   }
 
+  onSubmit(f:any): void { }
+
 }
